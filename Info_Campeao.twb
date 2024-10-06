@@ -36,7 +36,7 @@
           </named-connection>
         </named-connections>
         <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0ubz4o30gu4ghp17ikcgh0cffrgk' name='tabelacampeao.csv' table='[tabelacampeao#csv]' type='table'>
-          <columns character-set='windows-1252' header='yes' locale='pt_BR'>
+          <columns character-set='windows-1252' header='yes' locale='en_US' separator=','>
             <column datatype='integer' name='id_unico' ordinal='0' />
             <column datatype='string' name='versao_api' ordinal='1' />
             <column datatype='string' name='id' ordinal='2' />
@@ -51,27 +51,27 @@
             <column datatype='integer' name='hp' ordinal='11' />
             <column datatype='integer' name='hppornivel' ordinal='12' />
             <column datatype='integer' name='mp' ordinal='13' />
-            <column datatype='integer' name='mppornivel' ordinal='14' />
+            <column datatype='real' name='mppornivel' ordinal='14' />
             <column datatype='integer' name='velocidademovimento' ordinal='15' />
             <column datatype='integer' name='armadura' ordinal='16' />
-            <column datatype='string' name='armadurapornivel' ordinal='17' />
+            <column datatype='real' name='armadurapornivel' ordinal='17' />
             <column datatype='integer' name='mr' ordinal='18' />
-            <column datatype='string' name='mrpornivel' ordinal='19' />
+            <column datatype='real' name='mrpornivel' ordinal='19' />
             <column datatype='integer' name='range' ordinal='20' />
-            <column datatype='string' name='regeneracaohp' ordinal='21' />
-            <column datatype='string' name='regeneracaohppornivel' ordinal='22' />
-            <column datatype='string' name='regeneracaomp' ordinal='23' />
-            <column datatype='string' name='regeneracaomppornivel' ordinal='24' />
+            <column datatype='real' name='regeneracaohp' ordinal='21' />
+            <column datatype='real' name='regeneracaohppornivel' ordinal='22' />
+            <column datatype='real' name='regeneracaomp' ordinal='23' />
+            <column datatype='real' name='regeneracaomppornivel' ordinal='24' />
             <column datatype='integer' name='critico' ordinal='25' />
             <column datatype='integer' name='criticopornivel' ordinal='26' />
             <column datatype='integer' name='danodeataque' ordinal='27' />
-            <column datatype='string' name='danodeataquepornivel' ordinal='28' />
-            <column datatype='string' name='velocidadedeataque' ordinal='29' />
-            <column datatype='string' name='velocidadedeataquepornivel' ordinal='30' />
+            <column datatype='real' name='danodeataquepornivel' ordinal='28' />
+            <column datatype='real' name='velocidadedeataque' ordinal='29' />
+            <column datatype='real' name='velocidadedeataquepornivel' ordinal='30' />
           </columns>
         </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
         <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0ubz4o30gu4ghp17ikcgh0cffrgk' name='tabelacampeao.csv' table='[tabelacampeao#csv]' type='table'>
-          <columns character-set='windows-1252' header='yes' locale='pt_BR'>
+          <columns character-set='windows-1252' header='yes' locale='en_US' separator=','>
             <column datatype='integer' name='id_unico' ordinal='0' />
             <column datatype='string' name='versao_api' ordinal='1' />
             <column datatype='string' name='id' ordinal='2' />
@@ -86,23 +86,23 @@
             <column datatype='integer' name='hp' ordinal='11' />
             <column datatype='integer' name='hppornivel' ordinal='12' />
             <column datatype='integer' name='mp' ordinal='13' />
-            <column datatype='integer' name='mppornivel' ordinal='14' />
+            <column datatype='real' name='mppornivel' ordinal='14' />
             <column datatype='integer' name='velocidademovimento' ordinal='15' />
             <column datatype='integer' name='armadura' ordinal='16' />
-            <column datatype='string' name='armadurapornivel' ordinal='17' />
+            <column datatype='real' name='armadurapornivel' ordinal='17' />
             <column datatype='integer' name='mr' ordinal='18' />
-            <column datatype='string' name='mrpornivel' ordinal='19' />
+            <column datatype='real' name='mrpornivel' ordinal='19' />
             <column datatype='integer' name='range' ordinal='20' />
-            <column datatype='string' name='regeneracaohp' ordinal='21' />
-            <column datatype='string' name='regeneracaohppornivel' ordinal='22' />
-            <column datatype='string' name='regeneracaomp' ordinal='23' />
-            <column datatype='string' name='regeneracaomppornivel' ordinal='24' />
+            <column datatype='real' name='regeneracaohp' ordinal='21' />
+            <column datatype='real' name='regeneracaohppornivel' ordinal='22' />
+            <column datatype='real' name='regeneracaomp' ordinal='23' />
+            <column datatype='real' name='regeneracaomppornivel' ordinal='24' />
             <column datatype='integer' name='critico' ordinal='25' />
             <column datatype='integer' name='criticopornivel' ordinal='26' />
             <column datatype='integer' name='danodeataque' ordinal='27' />
-            <column datatype='string' name='danodeataquepornivel' ordinal='28' />
-            <column datatype='string' name='velocidadedeataque' ordinal='29' />
-            <column datatype='string' name='velocidadedeataquepornivel' ordinal='30' />
+            <column datatype='real' name='danodeataquepornivel' ordinal='28' />
+            <column datatype='real' name='velocidadedeataque' ordinal='29' />
+            <column datatype='real' name='velocidadedeataquepornivel' ordinal='30' />
           </columns>
         </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
         <metadata-records>
@@ -114,14 +114,12 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <attributes>
-              <attribute datatype='string' name='character-set'>&quot;ibm-5348_P100-1997&quot;</attribute>
-              <attribute datatype='string' name='collation'>&quot;pt_BR&quot;</attribute>
-              <attribute datatype='string' name='currency'>&quot;R$&quot;</attribute>
-              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='character-set'>&quot;windows-1252&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
               <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
-              <attribute datatype='string' name='locale'>&quot;pt_BR&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
               <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
-              <attribute datatype='string' name='thousands-char'>&quot;.&quot;</attribute>
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
@@ -148,7 +146,7 @@
             <scale>1</scale>
             <width>1073741823</width>
             <contains-null>true</contains-null>
-            <collation flag='0' name='LPT_RBR' />
+            <collation flag='0' name='LEN_RUS' />
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
@@ -163,7 +161,7 @@
             <scale>1</scale>
             <width>1073741823</width>
             <contains-null>true</contains-null>
-            <collation flag='0' name='LPT_RBR' />
+            <collation flag='0' name='LEN_RUS' />
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
@@ -190,7 +188,7 @@
             <scale>1</scale>
             <width>1073741823</width>
             <contains-null>true</contains-null>
-            <collation flag='0' name='LPT_RBR' />
+            <collation flag='0' name='LEN_RUS' />
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
@@ -205,7 +203,7 @@
             <scale>1</scale>
             <width>1073741823</width>
             <contains-null>true</contains-null>
-            <collation flag='0' name='LPT_RBR' />
+            <collation flag='0' name='LEN_RUS' />
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
@@ -220,7 +218,7 @@
             <scale>1</scale>
             <width>1073741823</width>
             <contains-null>true</contains-null>
-            <collation flag='0' name='LPT_RBR' />
+            <collation flag='0' name='LEN_RUS' />
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
@@ -309,12 +307,12 @@
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>mppornivel</remote-name>
-            <remote-type>20</remote-type>
+            <remote-type>5</remote-type>
             <local-name>[mppornivel]</local-name>
             <parent-name>[tabelacampeao.csv]</parent-name>
             <remote-alias>mppornivel</remote-alias>
             <ordinal>14</ordinal>
-            <local-type>integer</local-type>
+            <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
@@ -345,17 +343,14 @@
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>armadurapornivel</remote-name>
-            <remote-type>129</remote-type>
+            <remote-type>5</remote-type>
             <local-name>[armadurapornivel]</local-name>
             <parent-name>[tabelacampeao.csv]</parent-name>
             <remote-alias>armadurapornivel</remote-alias>
             <ordinal>17</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <collation flag='0' name='LPT_RBR' />
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
@@ -372,17 +367,14 @@
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>mrpornivel</remote-name>
-            <remote-type>129</remote-type>
+            <remote-type>5</remote-type>
             <local-name>[mrpornivel]</local-name>
             <parent-name>[tabelacampeao.csv]</parent-name>
             <remote-alias>mrpornivel</remote-alias>
             <ordinal>19</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <collation flag='0' name='LPT_RBR' />
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
@@ -399,62 +391,50 @@
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>regeneracaohp</remote-name>
-            <remote-type>129</remote-type>
+            <remote-type>5</remote-type>
             <local-name>[regeneracaohp]</local-name>
             <parent-name>[tabelacampeao.csv]</parent-name>
             <remote-alias>regeneracaohp</remote-alias>
             <ordinal>21</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <collation flag='0' name='LPT_RBR' />
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>regeneracaohppornivel</remote-name>
-            <remote-type>129</remote-type>
+            <remote-type>5</remote-type>
             <local-name>[regeneracaohppornivel]</local-name>
             <parent-name>[tabelacampeao.csv]</parent-name>
             <remote-alias>regeneracaohppornivel</remote-alias>
             <ordinal>22</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <collation flag='0' name='LPT_RBR' />
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>regeneracaomp</remote-name>
-            <remote-type>129</remote-type>
+            <remote-type>5</remote-type>
             <local-name>[regeneracaomp]</local-name>
             <parent-name>[tabelacampeao.csv]</parent-name>
             <remote-alias>regeneracaomp</remote-alias>
             <ordinal>23</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <collation flag='0' name='LPT_RBR' />
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>regeneracaomppornivel</remote-name>
-            <remote-type>129</remote-type>
+            <remote-type>5</remote-type>
             <local-name>[regeneracaomppornivel]</local-name>
             <parent-name>[tabelacampeao.csv]</parent-name>
             <remote-alias>regeneracaomppornivel</remote-alias>
             <ordinal>24</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <collation flag='0' name='LPT_RBR' />
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
@@ -495,86 +475,83 @@
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>danodeataquepornivel</remote-name>
-            <remote-type>129</remote-type>
+            <remote-type>5</remote-type>
             <local-name>[danodeataquepornivel]</local-name>
             <parent-name>[tabelacampeao.csv]</parent-name>
             <remote-alias>danodeataquepornivel</remote-alias>
             <ordinal>28</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <collation flag='0' name='LPT_RBR' />
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>velocidadedeataque</remote-name>
-            <remote-type>129</remote-type>
+            <remote-type>5</remote-type>
             <local-name>[velocidadedeataque]</local-name>
             <parent-name>[tabelacampeao.csv]</parent-name>
             <remote-alias>velocidadedeataque</remote-alias>
             <ordinal>29</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <collation flag='0' name='LPT_RBR' />
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>velocidadedeataquepornivel</remote-name>
-            <remote-type>129</remote-type>
+            <remote-type>5</remote-type>
             <local-name>[velocidadedeataquepornivel]</local-name>
             <parent-name>[tabelacampeao.csv]</parent-name>
             <remote-alias>velocidadedeataquepornivel</remote-alias>
             <ordinal>30</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <collation flag='0' name='LPT_RBR' />
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
         </metadata-records>
       </connection>
       <aliases enabled='yes' />
+      <column caption='Vazio' datatype='string' name='[Calculation_1237082523444031488]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='&apos;&apos;' />
+      </column>
+      <column caption='Versão API' datatype='string' name='[Calculation_1237082523452833794]' role='measure' type='nominal'>
+        <calculation class='tableau' formula='MAX([versao_api])' />
+      </column>
       <_.fcp.ObjectModelTableType.true...column caption='tabelacampeao.csv' datatype='table' name='[__tableau_internal_object_id__].[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]' role='measure' type='quantitative' />
       <column caption='Armadura' datatype='integer' name='[armadura]' role='measure' type='quantitative' />
-      <column aggregation='CountD' caption='Armadurapornivel' datatype='real' datatype-customized='true' name='[armadurapornivel]' role='measure' type='quantitative' />
+      <column aggregation='CountD' caption='Armadura Por Nivel' datatype='real' datatype-customized='true' name='[armadurapornivel]' role='measure' type='quantitative' />
       <column aggregation='Sum' caption='Ataque' datatype='integer' name='[ataque]' role='dimension' type='ordinal' />
       <column caption='Codigo Campeao' datatype='integer' name='[codigo_campeao]' role='dimension' type='ordinal' />
       <column caption='Critico' datatype='integer' name='[critico]' role='measure' type='quantitative' />
-      <column caption='Criticopornivel' datatype='integer' name='[criticopornivel]' role='measure' type='quantitative' />
-      <column caption='Danodeataque' datatype='integer' name='[danodeataque]' role='measure' type='quantitative' />
-      <column aggregation='CountD' caption='Danodeataquepornivel' datatype='real' datatype-customized='true' name='[danodeataquepornivel]' role='measure' type='quantitative' />
+      <column caption='Critico Por Nível' datatype='integer' name='[criticopornivel]' role='measure' type='quantitative' />
+      <column caption='Dano de Ataque' datatype='integer' name='[danodeataque]' role='measure' type='quantitative' />
+      <column aggregation='CountD' caption='Dano de Ataque Por Nível' datatype='real' datatype-customized='true' name='[danodeataquepornivel]' role='measure' type='quantitative' />
       <column aggregation='Sum' caption='Defesa' datatype='integer' name='[defesa]' role='dimension' type='ordinal' />
       <column aggregation='Sum' caption='Dificuldade' datatype='integer' name='[dificuldade]' role='dimension' type='ordinal' />
       <column caption='Hp' datatype='integer' name='[hp]' role='measure' type='quantitative' />
-      <column caption='Hppornivel' datatype='integer' name='[hppornivel]' role='measure' type='quantitative' />
+      <column caption='HP Por Nível' datatype='integer' name='[hppornivel]' role='measure' type='quantitative' />
       <column caption='Id' datatype='string' name='[id]' role='dimension' type='nominal' />
       <column caption='Id Unico' datatype='integer' name='[id_unico]' role='dimension' type='ordinal' />
       <column aggregation='Sum' caption='Magia' datatype='integer' name='[magia]' role='dimension' type='ordinal' />
-      <column caption='Mp' datatype='integer' name='[mp]' role='measure' type='quantitative' />
-      <column caption='Mppornivel' datatype='integer' name='[mppornivel]' role='measure' type='quantitative' />
-      <column caption='Mr' datatype='integer' name='[mr]' role='measure' type='quantitative' />
-      <column aggregation='CountD' caption='Mrpornivel' datatype='real' datatype-customized='true' name='[mrpornivel]' role='measure' type='quantitative' />
+      <column caption='MP' datatype='integer' name='[mp]' role='measure' type='quantitative' />
+      <column caption='MP Por Níivel' datatype='real' name='[mppornivel]' role='measure' type='quantitative' />
+      <column caption='MR' datatype='integer' name='[mr]' role='measure' type='quantitative' />
+      <column aggregation='CountD' caption='MR Por Nivel' datatype='real' datatype-customized='true' name='[mrpornivel]' role='measure' type='quantitative' />
       <column caption='Nome Campeao' datatype='string' name='[nome_campeao]' role='dimension' type='nominal' />
       <column caption='Range' datatype='integer' name='[range]' role='measure' type='quantitative' />
-      <column caption='Regeneracaohp' datatype='real' datatype-customized='true' name='[regeneracaohp]' role='measure' type='quantitative' />
-      <column aggregation='CountD' caption='Regeneracaohppornivel' datatype='real' datatype-customized='true' name='[regeneracaohppornivel]' role='measure' type='quantitative' />
-      <column aggregation='CountD' caption='Regeneracaomp' datatype='real' datatype-customized='true' name='[regeneracaomp]' role='measure' type='quantitative' />
-      <column aggregation='CountD' caption='Regeneracaomppornivel' datatype='real' datatype-customized='true' name='[regeneracaomppornivel]' role='measure' type='quantitative' />
+      <column caption='Regeneração de HP' datatype='real' datatype-customized='true' name='[regeneracaohp]' role='measure' type='quantitative' />
+      <column aggregation='CountD' caption='Regeneração de HP Por Nível' datatype='real' datatype-customized='true' name='[regeneracaohppornivel]' role='measure' type='quantitative' />
+      <column aggregation='CountD' caption='Regeneração MP' datatype='real' datatype-customized='true' name='[regeneracaomp]' role='measure' type='quantitative' />
+      <column aggregation='CountD' caption='Regeneração MP Por Nível' datatype='real' datatype-customized='true' name='[regeneracaomppornivel]' role='measure' type='quantitative' />
       <column caption='Tipo' datatype='string' name='[tipo]' role='dimension' type='nominal' />
       <column caption='Titulo' datatype='string' name='[titulo]' role='dimension' type='nominal' />
-      <column aggregation='CountD' caption='Velocidadedeataque' datatype='real' datatype-customized='true' name='[velocidadedeataque]' role='measure' type='quantitative' />
-      <column aggregation='CountD' caption='Velocidadedeataquepornivel' datatype='real' datatype-customized='true' name='[velocidadedeataquepornivel]' role='measure' type='quantitative' />
-      <column caption='Velocidademovimento' datatype='integer' name='[velocidademovimento]' role='measure' type='quantitative' />
+      <column aggregation='CountD' caption='Velocidade De Ataque' datatype='real' datatype-customized='true' name='[velocidadedeataque]' role='measure' type='quantitative' />
+      <column aggregation='CountD' caption='Velocidade De Ataque Por Nível' datatype='real' datatype-customized='true' name='[velocidadedeataquepornivel]' role='measure' type='quantitative' />
+      <column caption='Velocida de Movimento' datatype='integer' name='[velocidademovimento]' role='measure' type='quantitative' />
       <column caption='Versao Api' datatype='string' name='[versao_api]' role='dimension' type='nominal' />
       <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
-        <connection access_mode='readonly' author-locale='pt_BR' class='hyper' dbname='C:/Users/adona/AppData/Local/Temp/TableauTemp/#TableauTemp_0usnhpm1hplww513c82xy1t211fd.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='10/06/2024 03:01:32 AM' username='tableau_internal_user'>
+        <connection access_mode='readonly' author-locale='pt_BR' class='hyper' dbname='C:/Users/adona/AppData/Local/Temp/TableauTemp/#TableauTemp_1q9645v10f5cgv1d2bjkd170g350.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='10/06/2024 09:49:00 PM' username='tableau_internal_user'>
           <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
           <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
           <metadata-records>
@@ -602,9 +579,9 @@
               <family>tabelacampeao.csv</family>
               <local-type>string</local-type>
               <aggregation>Count</aggregation>
-              <approx-count>667</approx-count>
+              <approx-count>707</approx-count>
               <contains-null>true</contains-null>
-              <collation flag='0' name='LPT_RBR' />
+              <collation flag='0' name='LEN_RUS' />
               <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
@@ -619,7 +596,7 @@
               <aggregation>Count</aggregation>
               <approx-count>173</approx-count>
               <contains-null>true</contains-null>
-              <collation flag='0' name='LPT_RBR' />
+              <collation flag='0' name='LEN_RUS' />
               <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
@@ -648,7 +625,7 @@
               <aggregation>Count</aggregation>
               <approx-count>180</approx-count>
               <contains-null>true</contains-null>
-              <collation flag='0' name='LPT_RBR' />
+              <collation flag='0' name='LEN_RUS' />
               <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
@@ -663,7 +640,7 @@
               <aggregation>Count</aggregation>
               <approx-count>308</approx-count>
               <contains-null>true</contains-null>
-              <collation flag='0' name='LPT_RBR' />
+              <collation flag='0' name='LEN_RUS' />
               <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
@@ -678,7 +655,7 @@
               <aggregation>Count</aggregation>
               <approx-count>33</approx-count>
               <contains-null>true</contains-null>
-              <collation flag='0' name='LPT_RBR' />
+              <collation flag='0' name='LEN_RUS' />
               <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
@@ -747,7 +724,7 @@
               <family>tabelacampeao.csv</family>
               <local-type>integer</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>328</approx-count>
+              <approx-count>342</approx-count>
               <contains-null>true</contains-null>
               <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
@@ -761,7 +738,7 @@
               <family>tabelacampeao.csv</family>
               <local-type>integer</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>71</approx-count>
+              <approx-count>59</approx-count>
               <contains-null>true</contains-null>
               <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
@@ -775,21 +752,21 @@
               <family>tabelacampeao.csv</family>
               <local-type>integer</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>218</approx-count>
+              <approx-count>236</approx-count>
               <contains-null>true</contains-null>
               <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>mppornivel</remote-name>
-              <remote-type>20</remote-type>
+              <remote-type>5</remote-type>
               <local-name>[mppornivel]</local-name>
               <parent-name>[Extract]</parent-name>
               <remote-alias>mppornivel</remote-alias>
               <ordinal>14</ordinal>
               <family>tabelacampeao.csv</family>
-              <local-type>integer</local-type>
+              <local-type>real</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>54</approx-count>
+              <approx-count>65</approx-count>
               <contains-null>true</contains-null>
               <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
@@ -817,7 +794,7 @@
               <family>tabelacampeao.csv</family>
               <local-type>integer</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>153</approx-count>
+              <approx-count>43</approx-count>
               <contains-null>true</contains-null>
               <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
@@ -887,7 +864,7 @@
               <family>tabelacampeao.csv</family>
               <local-type>real</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>383</approx-count>
+              <approx-count>323</approx-count>
               <contains-null>true</contains-null>
               <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
@@ -915,7 +892,7 @@
               <family>tabelacampeao.csv</family>
               <local-type>real</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>259</approx-count>
+              <approx-count>258</approx-count>
               <contains-null>true</contains-null>
               <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
@@ -971,7 +948,7 @@
               <family>tabelacampeao.csv</family>
               <local-type>integer</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>163</approx-count>
+              <approx-count>42</approx-count>
               <contains-null>true</contains-null>
               <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
@@ -985,7 +962,7 @@
               <family>tabelacampeao.csv</family>
               <local-type>real</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>111</approx-count>
+              <approx-count>110</approx-count>
               <contains-null>true</contains-null>
               <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
@@ -999,7 +976,7 @@
               <family>tabelacampeao.csv</family>
               <local-type>real</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>63</approx-count>
+              <approx-count>67</approx-count>
               <contains-null>true</contains-null>
               <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
@@ -1020,7 +997,7 @@
           </metadata-records>
         </connection>
       </extract>
-      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-aliased-fields='true' show-structure='true' />
       <semantic-values>
         <semantic-value key='[Country].[Name]' value='&quot;Brasil&quot;' />
       </semantic-values>
@@ -1029,7 +1006,7 @@
           <object caption='tabelacampeao.csv' id='tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1'>
             <properties context=''>
               <relation connection='textscan.0ubz4o30gu4ghp17ikcgh0cffrgk' name='tabelacampeao.csv' table='[tabelacampeao#csv]' type='table'>
-                <columns character-set='windows-1252' header='yes' locale='pt_BR'>
+                <columns character-set='windows-1252' header='yes' locale='en_US' separator=','>
                   <column datatype='integer' name='id_unico' ordinal='0' />
                   <column datatype='string' name='versao_api' ordinal='1' />
                   <column datatype='string' name='id' ordinal='2' />
@@ -1044,23 +1021,23 @@
                   <column datatype='integer' name='hp' ordinal='11' />
                   <column datatype='integer' name='hppornivel' ordinal='12' />
                   <column datatype='integer' name='mp' ordinal='13' />
-                  <column datatype='integer' name='mppornivel' ordinal='14' />
+                  <column datatype='real' name='mppornivel' ordinal='14' />
                   <column datatype='integer' name='velocidademovimento' ordinal='15' />
                   <column datatype='integer' name='armadura' ordinal='16' />
-                  <column datatype='string' name='armadurapornivel' ordinal='17' />
+                  <column datatype='real' name='armadurapornivel' ordinal='17' />
                   <column datatype='integer' name='mr' ordinal='18' />
-                  <column datatype='string' name='mrpornivel' ordinal='19' />
+                  <column datatype='real' name='mrpornivel' ordinal='19' />
                   <column datatype='integer' name='range' ordinal='20' />
-                  <column datatype='string' name='regeneracaohp' ordinal='21' />
-                  <column datatype='string' name='regeneracaohppornivel' ordinal='22' />
-                  <column datatype='string' name='regeneracaomp' ordinal='23' />
-                  <column datatype='string' name='regeneracaomppornivel' ordinal='24' />
+                  <column datatype='real' name='regeneracaohp' ordinal='21' />
+                  <column datatype='real' name='regeneracaohppornivel' ordinal='22' />
+                  <column datatype='real' name='regeneracaomp' ordinal='23' />
+                  <column datatype='real' name='regeneracaomppornivel' ordinal='24' />
                   <column datatype='integer' name='critico' ordinal='25' />
                   <column datatype='integer' name='criticopornivel' ordinal='26' />
                   <column datatype='integer' name='danodeataque' ordinal='27' />
-                  <column datatype='string' name='danodeataquepornivel' ordinal='28' />
-                  <column datatype='string' name='velocidadedeataque' ordinal='29' />
-                  <column datatype='string' name='velocidadedeataquepornivel' ordinal='30' />
+                  <column datatype='real' name='danodeataquepornivel' ordinal='28' />
+                  <column datatype='real' name='velocidadedeataque' ordinal='29' />
+                  <column datatype='real' name='velocidadedeataquepornivel' ordinal='30' />
                 </columns>
               </relation>
             </properties>
@@ -1082,21 +1059,23 @@
         <column-instance column='[nome_campeao]' derivation='None' name='[none:nome_campeao:nk]' pivot='key' type='nominal' />
       </datasource-dependencies>
       <filter class='categorical' column='[federated.1s1lyjl02ljezk1du9en900zj1za].[none:nome_campeao:nk]'>
-        <groupfilter function='member' level='[none:nome_campeao:nk]' member='&quot;Aatrox&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+        <groupfilter function='member' level='[none:nome_campeao:nk]' member='&quot;Heimerdinger&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
       </filter>
     </shared-view>
   </shared-views>
   <worksheets>
-    <worksheet name='Planilha 1'>
+    <worksheet name='Nome'>
       <table>
         <view>
           <datasources>
             <datasource caption='tabelacampeao' name='federated.1s1lyjl02ljezk1du9en900zj1za' />
           </datasources>
           <datasource-dependencies datasource='federated.1s1lyjl02ljezk1du9en900zj1za'>
-            <column caption='Danodeataque' datatype='integer' name='[danodeataque]' role='measure' type='quantitative' />
-            <column-instance column='[danodeataque]' derivation='Max' name='[max:danodeataque:qk]' pivot='key' type='quantitative' />
+            <column caption='Vazio' datatype='string' name='[Calculation_1237082523444031488]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='&apos;&apos;' />
+            </column>
             <column caption='Nome Campeao' datatype='string' name='[nome_campeao]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_1237082523444031488]' derivation='None' name='[none:Calculation_1237082523444031488:nk]' pivot='key' type='nominal' />
             <column-instance column='[nome_campeao]' derivation='None' name='[none:nome_campeao:nk]' pivot='key' type='nominal' />
           </datasource-dependencies>
           <slices>
@@ -1105,11 +1084,30 @@
           <aggregation value='true' />
         </view>
         <style>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.1s1lyjl02ljezk1du9en900zj1za].[none:nome_campeao:nk]' value='26' />
+            <format attr='width' value='5' />
+            <format attr='text-align' field='[federated.1s1lyjl02ljezk1du9en900zj1za].[none:nome_campeao:nk]' value='center' />
+            <format attr='font-family' field='[federated.1s1lyjl02ljezk1du9en900zj1za].[none:nome_campeao:nk]' value='Times New Roman' />
+            <format attr='font-size' field='[federated.1s1lyjl02ljezk1du9en900zj1za].[none:nome_campeao:nk]' value='9' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1s1lyjl02ljezk1du9en900zj1za].[none:nome_campeao:nk]' value='612' />
+          </style-rule>
           <style-rule element='label'>
             <format attr='display' field='[federated.1s1lyjl02ljezk1du9en900zj1za].[none:nome_campeao:nk]' value='true' />
+            <format attr='display' field='[federated.1s1lyjl02ljezk1du9en900zj1za].[none:Calculation_1237082523444031488:nk]' value='true' />
+            <format attr='font-family' field='[federated.1s1lyjl02ljezk1du9en900zj1za].[none:nome_campeao:nk]' value='Times New Roman' />
+            <format attr='font-size' field='[federated.1s1lyjl02ljezk1du9en900zj1za].[none:nome_campeao:nk]' value='15' />
+            <format attr='text-align' scope='rows' value='center' />
           </style-rule>
           <style-rule element='worksheet'>
             <format attr='display-field-labels' scope='rows' value='false' />
+            <format attr='in-tooltip' field='[federated.1s1lyjl02ljezk1du9en900zj1za].[none:Calculation_1237082523444031488:nk]' value='false' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
           </style-rule>
         </style>
         <panes>
@@ -1119,11 +1117,17 @@
             </view>
             <mark class='Automatic' />
             <encodings>
-              <text column='[federated.1s1lyjl02ljezk1du9en900zj1za].[max:danodeataque:qk]' />
+              <lod column='[federated.1s1lyjl02ljezk1du9en900zj1za].[none:Calculation_1237082523444031488:nk]' />
             </encodings>
             <style>
               <style-rule element='mark'>
-                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-color' value='#ffffff' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
               </style-rule>
             </style>
           </pane>
@@ -1133,10 +1137,163 @@
       </table>
       <simple-id uuid='{7C3B6B39-5BCA-4DB9-92ED-7EB7000D356B}' />
     </worksheet>
+    <worksheet name='Planilha 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>&lt;</run>
+            <run>Sheet Name</run>
+            <run>&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='tabelacampeao' name='federated.1s1lyjl02ljezk1du9en900zj1za' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1s1lyjl02ljezk1du9en900zj1za'>
+            <column caption='Versão API' datatype='string' name='[Calculation_1237082523452833794]' role='measure' type='nominal'>
+              <calculation class='tableau' formula='MAX([versao_api])' />
+            </column>
+            <column caption='Armadura' datatype='integer' name='[armadura]' role='measure' type='quantitative' />
+            <column aggregation='CountD' caption='Armadura Por Nivel' datatype='real' datatype-customized='true' name='[armadurapornivel]' role='measure' type='quantitative' />
+            <column caption='Critico' datatype='integer' name='[critico]' role='measure' type='quantitative' />
+            <column caption='Critico Por Nível' datatype='integer' name='[criticopornivel]' role='measure' type='quantitative' />
+            <column caption='Dano de Ataque' datatype='integer' name='[danodeataque]' role='measure' type='quantitative' />
+            <column aggregation='CountD' caption='Dano de Ataque Por Nível' datatype='real' datatype-customized='true' name='[danodeataquepornivel]' role='measure' type='quantitative' />
+            <column caption='Hp' datatype='integer' name='[hp]' role='measure' type='quantitative' />
+            <column caption='HP Por Nível' datatype='integer' name='[hppornivel]' role='measure' type='quantitative' />
+            <column-instance column='[armadura]' derivation='Max' name='[max:armadura:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[armadurapornivel]' derivation='Max' name='[max:armadurapornivel:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[critico]' derivation='Max' name='[max:critico:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[criticopornivel]' derivation='Max' name='[max:criticopornivel:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[danodeataque]' derivation='Max' name='[max:danodeataque:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[danodeataquepornivel]' derivation='Max' name='[max:danodeataquepornivel:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[hp]' derivation='Max' name='[max:hp:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[hppornivel]' derivation='Max' name='[max:hppornivel:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[mp]' derivation='Max' name='[max:mp:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[mppornivel]' derivation='Max' name='[max:mppornivel:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[mr]' derivation='Max' name='[max:mr:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[mrpornivel]' derivation='Max' name='[max:mrpornivel:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[range]' derivation='Max' name='[max:range:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[regeneracaohp]' derivation='Max' name='[max:regeneracaohp:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[regeneracaohppornivel]' derivation='Max' name='[max:regeneracaohppornivel:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[regeneracaomp]' derivation='Max' name='[max:regeneracaomp:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[regeneracaomppornivel]' derivation='Max' name='[max:regeneracaomppornivel:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[velocidadedeataque]' derivation='Max' name='[max:velocidadedeataque:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[velocidadedeataquepornivel]' derivation='Max' name='[max:velocidadedeataquepornivel:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[velocidademovimento]' derivation='Max' name='[max:velocidademovimento:qk]' pivot='key' type='quantitative' />
+            <column caption='MP' datatype='integer' name='[mp]' role='measure' type='quantitative' />
+            <column caption='MP Por Níivel' datatype='real' name='[mppornivel]' role='measure' type='quantitative' />
+            <column caption='MR' datatype='integer' name='[mr]' role='measure' type='quantitative' />
+            <column aggregation='CountD' caption='MR Por Nivel' datatype='real' datatype-customized='true' name='[mrpornivel]' role='measure' type='quantitative' />
+            <column caption='Nome Campeao' datatype='string' name='[nome_campeao]' role='dimension' type='nominal' />
+            <column-instance column='[nome_campeao]' derivation='None' name='[none:nome_campeao:nk]' pivot='key' type='nominal' />
+            <column caption='Range' datatype='integer' name='[range]' role='measure' type='quantitative' />
+            <column caption='Regeneração de HP' datatype='real' datatype-customized='true' name='[regeneracaohp]' role='measure' type='quantitative' />
+            <column aggregation='CountD' caption='Regeneração de HP Por Nível' datatype='real' datatype-customized='true' name='[regeneracaohppornivel]' role='measure' type='quantitative' />
+            <column aggregation='CountD' caption='Regeneração MP' datatype='real' datatype-customized='true' name='[regeneracaomp]' role='measure' type='quantitative' />
+            <column aggregation='CountD' caption='Regeneração MP Por Nível' datatype='real' datatype-customized='true' name='[regeneracaomppornivel]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_1237082523452833794]' derivation='User' name='[usr:Calculation_1237082523452833794:nk]' pivot='key' type='nominal' />
+            <column aggregation='CountD' caption='Velocidade De Ataque' datatype='real' datatype-customized='true' name='[velocidadedeataque]' role='measure' type='quantitative' />
+            <column aggregation='CountD' caption='Velocidade De Ataque Por Nível' datatype='real' datatype-customized='true' name='[velocidadedeataquepornivel]' role='measure' type='quantitative' />
+            <column caption='Velocida de Movimento' datatype='integer' name='[velocidademovimento]' role='measure' type='quantitative' />
+            <column caption='Versao Api' datatype='string' name='[versao_api]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1s1lyjl02ljezk1du9en900zj1za].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1s1lyjl02ljezk1du9en900zj1za].[max:armadura:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1s1lyjl02ljezk1du9en900zj1za].[max:armadurapornivel:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1s1lyjl02ljezk1du9en900zj1za].[max:critico:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1s1lyjl02ljezk1du9en900zj1za].[max:criticopornivel:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1s1lyjl02ljezk1du9en900zj1za].[max:danodeataque:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1s1lyjl02ljezk1du9en900zj1za].[max:danodeataquepornivel:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1s1lyjl02ljezk1du9en900zj1za].[max:hppornivel:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1s1lyjl02ljezk1du9en900zj1za].[max:hp:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1s1lyjl02ljezk1du9en900zj1za].[max:mp:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1s1lyjl02ljezk1du9en900zj1za].[max:mppornivel:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1s1lyjl02ljezk1du9en900zj1za].[max:mr:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1s1lyjl02ljezk1du9en900zj1za].[max:mrpornivel:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1s1lyjl02ljezk1du9en900zj1za].[max:range:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1s1lyjl02ljezk1du9en900zj1za].[max:regeneracaomp:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1s1lyjl02ljezk1du9en900zj1za].[max:regeneracaomppornivel:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1s1lyjl02ljezk1du9en900zj1za].[max:regeneracaohp:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1s1lyjl02ljezk1du9en900zj1za].[max:regeneracaohppornivel:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1s1lyjl02ljezk1du9en900zj1za].[max:velocidademovimento:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1s1lyjl02ljezk1du9en900zj1za].[max:velocidadedeataque:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1s1lyjl02ljezk1du9en900zj1za].[max:velocidadedeataquepornivel:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1s1lyjl02ljezk1du9en900zj1za].[none:nome_campeao:nk]</column>
+            <column>[federated.1s1lyjl02ljezk1du9en900zj1za].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-orientation' value='0' />
+            <format attr='text-align' value='center' />
+            <format attr='vertical-align' value='center' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='border-width' data-class='subtotal' scope='rows' value='0' />
+            <format attr='border-style' data-class='subtotal' scope='rows' value='none' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.1s1lyjl02ljezk1du9en900zj1za].[none:nome_campeao:nk]' value='false' />
+            <format attr='text-orientation' field='[federated.1s1lyjl02ljezk1du9en900zj1za].[:Measure Names]' value='0' />
+            <format attr='text-align' field='[federated.1s1lyjl02ljezk1du9en900zj1za].[usr:Calculation_1237082523452833794:nk]' value='center' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='subtotal' scope='rows' value='0' />
+            <format attr='border-style' data-class='subtotal' scope='rows' value='none' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.1s1lyjl02ljezk1du9en900zj1za].[:Measure Names]' value='Status Máximo'>
+              <formatted-text>
+                <run fontalignment='1'>Status Máximo</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1s1lyjl02ljezk1du9en900zj1za].[Multiple Values]' />
+              <color column='[federated.1s1lyjl02ljezk1du9en900zj1za].[usr:Calculation_1237082523452833794:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1s1lyjl02ljezk1du9en900zj1za].[none:nome_campeao:nk]</rows>
+        <cols>[federated.1s1lyjl02ljezk1du9en900zj1za].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{FA091E8F-8C90-449C-BE04-1193057ECAF5}' />
+    </worksheet>
   </worksheets>
   <dashboards>
-    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Painel 1'>
-      <style />
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Viz_Campeao'>
+      <style>
+        <style-rule element='dash-text'>
+          <format attr='text-align' id='dash-text_12' value='center' />
+        </style-rule>
+      </style>
       <size maxheight='860' maxwidth='650' minheight='560' minwidth='420' />
       <datasources>
         <datasource caption='tabelacampeao' name='federated.1s1lyjl02ljezk1du9en900zj1za' />
@@ -1154,16 +1311,26 @@
             <format attr='margin' value='8' />
           </zone-style>
         </zone>
-        <zone h='45158' id='3' name='Planilha 1' show-title='false' w='46615' x='2923' y='8518' />
-        <zone h='6068' id='4' mode='dropdown' name='Planilha 1' param='[federated.1s1lyjl02ljezk1du9en900zj1za].[none:nome_campeao:nk]' type-v2='filter' values='database' w='25846' x='2769' y='700' />
+        <zone h='3501' id='3' name='Nome' show-title='false' w='100000' x='0' y='9335' />
+        <zone h='2334' id='4' mode='dropdown' name='Nome' param='[federated.1s1lyjl02ljezk1du9en900zj1za].[none:nome_campeao:nk]' show-all='false' show-title='false' type-v2='filter' values='database' w='23077' x='1538' y='5834' />
+        <zone forceUpdate='true' h='5834' id='12' type-v2='text' w='33846' x='32308' y='583'>
+          <formatted-text>
+            <run fontname='Times New Roman' fontsize='20'>Dados do Campeão</run>
+          </formatted-text>
+        </zone>
+        <zone h='5834' id='17' name='Planilha 2' show-title='false' w='46154' x='769' y='21004' />
+        <zone h='4667' id='18' mode='dropdown' name='Planilha 2' param='[federated.1s1lyjl02ljezk1du9en900zj1za].[:Measure Names]' show-all='false' type-v2='filter' w='46154' x='769' y='15169' />
       </zones>
       <devicelayouts>
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='11' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98134' id='10' param='vert' type-v2='layout-flow' w='97538' x='1231' y='933'>
-                <zone h='6068' id='4' mode='dropdown' name='Planilha 1' param='[federated.1s1lyjl02ljezk1du9en900zj1za].[none:nome_campeao:nk]' type-v2='filter' values='database' w='25846' x='2769' y='700'>
+            <zone h='100000' id='20' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98134' id='19' param='vert' type-v2='layout-flow' w='97538' x='1231' y='933'>
+                <zone forceUpdate='true' h='5834' id='12' type-v2='text' w='33846' x='32308' y='583'>
+                  <formatted-text>
+                    <run fontname='Times New Roman' fontsize='20'>Dados do Campeão</run>
+                  </formatted-text>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -1172,7 +1339,34 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='280' h='45158' id='3' is-fixed='true' name='Planilha 1' show-title='false' w='46615' x='2923' y='8518'>
+                <zone h='2334' id='4' mode='dropdown' name='Nome' param='[federated.1s1lyjl02ljezk1du9en900zj1za].[none:nome_campeao:nk]' show-all='false' show-title='false' type-v2='filter' values='database' w='23077' x='1538' y='5834'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='30' h='3501' id='3' is-fixed='true' name='Nome' show-title='false' w='100000' x='0' y='9335'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='4667' id='18' mode='dropdown' name='Planilha 2' param='[federated.1s1lyjl02ljezk1du9en900zj1za].[:Measure Names]' show-all='false' type-v2='filter' w='46154' x='769' y='15169'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='50' h='5834' id='17' is-fixed='true' name='Planilha 2' show-title='false' w='46154' x='769' y='21004'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -1196,7 +1390,7 @@
     </dashboard>
   </dashboards>
   <windows source-height='30'>
-    <window class='worksheet' maximized='true' name='Planilha 1'>
+    <window class='worksheet' name='Nome'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -1220,6 +1414,8 @@
       <viewpoint>
         <highlight>
           <color-one-way>
+            <field>[federated.1s1lyjl02ljezk1du9en900zj1za].[none:Calculation_1237082523444031488:nk]</field>
+            <field>[federated.1s1lyjl02ljezk1du9en900zj1za].[none:nome_campeao:nk]</field>
             <field>[federated.1s1lyjl02ljezk1du9en900zj1za].[none:versao_api:nk]</field>
             <field>[federated.1s1lyjl02ljezk1du9en900zj1za].[sum:ataque:qk]</field>
             <field>[federated.1s1lyjl02ljezk1du9en900zj1za].[usr:Calculation_1422856007803146240:ok]</field>
@@ -1229,77 +1425,222 @@
       </viewpoint>
       <simple-id uuid='{2400D209-614A-4570-8A98-CFB9963A2CEA}' />
     </window>
-    <window class='dashboard' name='Painel 1'>
+    <window class='worksheet' name='Planilha 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card pane-specification-id='0' param='[federated.1s1lyjl02ljezk1du9en900zj1za].[usr:Calculation_1237082523452833794:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1s1lyjl02ljezk1du9en900zj1za].[max:versao_api:nk]</field>
+            <field>[federated.1s1lyjl02ljezk1du9en900zj1za].[none:ataque:ok]</field>
+            <field>[federated.1s1lyjl02ljezk1du9en900zj1za].[none:defesa:ok]</field>
+            <field>[federated.1s1lyjl02ljezk1du9en900zj1za].[none:dificuldade:ok]</field>
+            <field>[federated.1s1lyjl02ljezk1du9en900zj1za].[none:magia:ok]</field>
+            <field>[federated.1s1lyjl02ljezk1du9en900zj1za].[none:nome_campeao:nk]</field>
+            <field>[federated.1s1lyjl02ljezk1du9en900zj1za].[none:versao_api:nk]</field>
+            <field>[federated.1s1lyjl02ljezk1du9en900zj1za].[usr:Calculation_1237082523452833794:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{BB5F8773-D791-410C-9D5D-EF14E5CACFF4}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Viz_Campeao'>
       <viewpoints>
-        <viewpoint name='Planilha 1' />
+        <viewpoint name='Nome' />
+        <viewpoint name='Planilha 2' />
       </viewpoints>
-      <active id='4' />
+      <active id='5' />
       <simple-id uuid='{DD1BF38F-1806-442A-8A34-0251839F6058}' />
     </window>
   </windows>
   <thumbnails>
-    <thumbnail height='192' name='Painel 1' width='192'>
-      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
-      AAAFpElEQVR4nO3bS2tcZQDG8efMpJPbJDNJJ61prqYhSVshEisVXBRUqvuu/ASCn8Fv4dqV
-      4K6KCgpCsSBCRduixJC0TS+ZmTSdJGZyz1zOGRdiN6ZRySRN+/x/uxmY874Hzp/hfTlvUKvV
-      agIMBUEQxJ71JIBniQBgbdcA7tz4Xtensvrlxs29fx2F+vHaVd2aunsQcwMOXMNuX5bKFT1e
-      fqhj0Ya++/Zr1Ro7FK4uqFiuKtHUqsRmQdlyuz64fFEbDWm9OTaoLz/7RNXOYcU2sipXE2pu
-      Tym+valqc1JBcU75clrnTgaaXmnQSFdcm2GL3n3vrd0nABySXZ+/hkSjzgxk9MPNJfW0B4rC
-      UG2d3WqNR4qpqu1YVRM9I4q3pBWs/aQbvzao3NCqJpWUOtWvWBiXopLyhXU1t7Srqa1TEz2j
-      ejT7m1LJJkVhqCiMDvtegX8IDm4XKNT92ZxePj1wMJcH9ikIguAAAwCOtj23QQv5e5q6m33y
-      eW1lReGhTAs4PE9dgy6ubKoS1pSdXtSVa5MaH0jrxOg5Pb49q3SmQ2vFFWX6h1QpVzV+blSx
-      IDjMeQN1sWsAtXBH87mcKpVIW11pnUqn1D3Qr1DSwPBZhTsFrUahqmFNpVJJtZoknn88h1gD
-      wBavQsAeAcAaAcAaAcAaAcAaAcAaAcAaAcAaAcDa7gdiSiVtb28f9lzqolypan5pdV/XCIJA
-      Z4Z6lUgk6jQrHFUv3KsQt+9ldfmjT/d1jZbGBl39+EMlk8k6zQpH0b++ClELy/rqi8+1Vfm7
-      kbLm80v1GT2qaPr3Sc3OzUuSHtyd1tTMPUU1qbi0oPvZhfqMI6krndTFiWGd7GzTpQtjamtp
-      Uk9XSu+8Pqrh3owuXRjTcG9Gb58fUbqtuW7j4ujb80jucm5ac3N5Td6+o5+/uaLBiQnNzRQ0
-      MX5aHZmUHmaXlEo3a315RaOvXVBvJv3fR65FOt7dr+LyXw96a+q4jq2taCeS0pkurc/VL4C+
-      k2ndmslpYrRP1ycf6ERHUrP5JaWSzSpubCtXKKq5MaGbM1m1NiVULlfqNjaOtj3/AZaKoS6/
-      f1nB6mMNjI0r09WnkaETampJqn9oSLHqlmLxhNra27S9Vfp/I8ePaXN5XrFEUmvrawp3NlSs
-      NijcWtPio7xy+bw2y9X93NsTuUJR58/0a27hD73xyqDCKNJgd6deOt6uWk1a39zRnWxBr470
-      Kh5nX8AJa4BdsAbw8NQzwc/7LlBucX+7QLFAOnu6j12gFxyH4mGNAzGwRwCwRgCwRgCwRgCw
-      RgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCw
-      RgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCw
-      RgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCw
-      RgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCw
-      RgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCw
-      RgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCw
-      RgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCw
-      RgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCw
-      RgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCw9ieyE2UXvwiNDgAA
-      AABJRU5ErkJggg==
+    <thumbnail height='30' name='Nome' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAAAeCAYAAAB66BFYAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAAbElEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpHwTiBDgUVwiPAAAAAElFTkSuQmCC
     </thumbnail>
-    <thumbnail height='24' name='Planilha 1' width='144'>
-      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
-      vFkSUgAAAABJRU5ErkJggg==
+    <thumbnail height='64' name='Planilha 2' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Viz_Campeao' width='192'>
+      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
+      AAAASUVORK5CYII=
     </thumbnail>
   </thumbnails>
 </workbook>
