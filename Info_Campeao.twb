@@ -1,0 +1,1305 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20242.24.0910.0334                               -->
+<workbook original-version='18.1' source-build='2024.2.3 (20242.24.0910.0334)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='tabelacampeao' inline='true' name='federated.1s1lyjl02ljezk1du9en900zj1za' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='tabelacampeao' name='textscan.0ubz4o30gu4ghp17ikcgh0cffrgk'>
+            <connection class='textscan' directory='E:/Jupyter/Projeto_API_LOL' filename='tabelacampeao.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0ubz4o30gu4ghp17ikcgh0cffrgk' name='tabelacampeao.csv' table='[tabelacampeao#csv]' type='table'>
+          <columns character-set='windows-1252' header='yes' locale='pt_BR'>
+            <column datatype='integer' name='id_unico' ordinal='0' />
+            <column datatype='string' name='versao_api' ordinal='1' />
+            <column datatype='string' name='id' ordinal='2' />
+            <column datatype='integer' name='codigo_campeao' ordinal='3' />
+            <column datatype='string' name='nome_campeao' ordinal='4' />
+            <column datatype='string' name='titulo' ordinal='5' />
+            <column datatype='string' name='tipo' ordinal='6' />
+            <column datatype='integer' name='ataque' ordinal='7' />
+            <column datatype='integer' name='defesa' ordinal='8' />
+            <column datatype='integer' name='magia' ordinal='9' />
+            <column datatype='integer' name='dificuldade' ordinal='10' />
+            <column datatype='integer' name='hp' ordinal='11' />
+            <column datatype='integer' name='hppornivel' ordinal='12' />
+            <column datatype='integer' name='mp' ordinal='13' />
+            <column datatype='integer' name='mppornivel' ordinal='14' />
+            <column datatype='integer' name='velocidademovimento' ordinal='15' />
+            <column datatype='integer' name='armadura' ordinal='16' />
+            <column datatype='string' name='armadurapornivel' ordinal='17' />
+            <column datatype='integer' name='mr' ordinal='18' />
+            <column datatype='string' name='mrpornivel' ordinal='19' />
+            <column datatype='integer' name='range' ordinal='20' />
+            <column datatype='string' name='regeneracaohp' ordinal='21' />
+            <column datatype='string' name='regeneracaohppornivel' ordinal='22' />
+            <column datatype='string' name='regeneracaomp' ordinal='23' />
+            <column datatype='string' name='regeneracaomppornivel' ordinal='24' />
+            <column datatype='integer' name='critico' ordinal='25' />
+            <column datatype='integer' name='criticopornivel' ordinal='26' />
+            <column datatype='integer' name='danodeataque' ordinal='27' />
+            <column datatype='string' name='danodeataquepornivel' ordinal='28' />
+            <column datatype='string' name='velocidadedeataque' ordinal='29' />
+            <column datatype='string' name='velocidadedeataquepornivel' ordinal='30' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0ubz4o30gu4ghp17ikcgh0cffrgk' name='tabelacampeao.csv' table='[tabelacampeao#csv]' type='table'>
+          <columns character-set='windows-1252' header='yes' locale='pt_BR'>
+            <column datatype='integer' name='id_unico' ordinal='0' />
+            <column datatype='string' name='versao_api' ordinal='1' />
+            <column datatype='string' name='id' ordinal='2' />
+            <column datatype='integer' name='codigo_campeao' ordinal='3' />
+            <column datatype='string' name='nome_campeao' ordinal='4' />
+            <column datatype='string' name='titulo' ordinal='5' />
+            <column datatype='string' name='tipo' ordinal='6' />
+            <column datatype='integer' name='ataque' ordinal='7' />
+            <column datatype='integer' name='defesa' ordinal='8' />
+            <column datatype='integer' name='magia' ordinal='9' />
+            <column datatype='integer' name='dificuldade' ordinal='10' />
+            <column datatype='integer' name='hp' ordinal='11' />
+            <column datatype='integer' name='hppornivel' ordinal='12' />
+            <column datatype='integer' name='mp' ordinal='13' />
+            <column datatype='integer' name='mppornivel' ordinal='14' />
+            <column datatype='integer' name='velocidademovimento' ordinal='15' />
+            <column datatype='integer' name='armadura' ordinal='16' />
+            <column datatype='string' name='armadurapornivel' ordinal='17' />
+            <column datatype='integer' name='mr' ordinal='18' />
+            <column datatype='string' name='mrpornivel' ordinal='19' />
+            <column datatype='integer' name='range' ordinal='20' />
+            <column datatype='string' name='regeneracaohp' ordinal='21' />
+            <column datatype='string' name='regeneracaohppornivel' ordinal='22' />
+            <column datatype='string' name='regeneracaomp' ordinal='23' />
+            <column datatype='string' name='regeneracaomppornivel' ordinal='24' />
+            <column datatype='integer' name='critico' ordinal='25' />
+            <column datatype='integer' name='criticopornivel' ordinal='26' />
+            <column datatype='integer' name='danodeataque' ordinal='27' />
+            <column datatype='string' name='danodeataquepornivel' ordinal='28' />
+            <column datatype='string' name='velocidadedeataque' ordinal='29' />
+            <column datatype='string' name='velocidadedeataquepornivel' ordinal='30' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[tabelacampeao.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;ibm-5348_P100-1997&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;pt_BR&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;R$&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;pt_BR&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot;.&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>id_unico</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[id_unico]</local-name>
+            <parent-name>[tabelacampeao.csv]</parent-name>
+            <remote-alias>id_unico</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>versao_api</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[versao_api]</local-name>
+            <parent-name>[tabelacampeao.csv]</parent-name>
+            <remote-alias>versao_api</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LPT_RBR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[id]</local-name>
+            <parent-name>[tabelacampeao.csv]</parent-name>
+            <remote-alias>id</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LPT_RBR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>codigo_campeao</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[codigo_campeao]</local-name>
+            <parent-name>[tabelacampeao.csv]</parent-name>
+            <remote-alias>codigo_campeao</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nome_campeao</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[nome_campeao]</local-name>
+            <parent-name>[tabelacampeao.csv]</parent-name>
+            <remote-alias>nome_campeao</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LPT_RBR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>titulo</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[titulo]</local-name>
+            <parent-name>[tabelacampeao.csv]</parent-name>
+            <remote-alias>titulo</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LPT_RBR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tipo</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[tipo]</local-name>
+            <parent-name>[tabelacampeao.csv]</parent-name>
+            <remote-alias>tipo</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LPT_RBR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ataque</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ataque]</local-name>
+            <parent-name>[tabelacampeao.csv]</parent-name>
+            <remote-alias>ataque</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>defesa</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[defesa]</local-name>
+            <parent-name>[tabelacampeao.csv]</parent-name>
+            <remote-alias>defesa</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>magia</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[magia]</local-name>
+            <parent-name>[tabelacampeao.csv]</parent-name>
+            <remote-alias>magia</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dificuldade</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[dificuldade]</local-name>
+            <parent-name>[tabelacampeao.csv]</parent-name>
+            <remote-alias>dificuldade</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hp</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[hp]</local-name>
+            <parent-name>[tabelacampeao.csv]</parent-name>
+            <remote-alias>hp</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hppornivel</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[hppornivel]</local-name>
+            <parent-name>[tabelacampeao.csv]</parent-name>
+            <remote-alias>hppornivel</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mp</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[mp]</local-name>
+            <parent-name>[tabelacampeao.csv]</parent-name>
+            <remote-alias>mp</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mppornivel</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[mppornivel]</local-name>
+            <parent-name>[tabelacampeao.csv]</parent-name>
+            <remote-alias>mppornivel</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>velocidademovimento</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[velocidademovimento]</local-name>
+            <parent-name>[tabelacampeao.csv]</parent-name>
+            <remote-alias>velocidademovimento</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>armadura</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[armadura]</local-name>
+            <parent-name>[tabelacampeao.csv]</parent-name>
+            <remote-alias>armadura</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>armadurapornivel</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[armadurapornivel]</local-name>
+            <parent-name>[tabelacampeao.csv]</parent-name>
+            <remote-alias>armadurapornivel</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LPT_RBR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mr</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[mr]</local-name>
+            <parent-name>[tabelacampeao.csv]</parent-name>
+            <remote-alias>mr</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mrpornivel</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[mrpornivel]</local-name>
+            <parent-name>[tabelacampeao.csv]</parent-name>
+            <remote-alias>mrpornivel</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LPT_RBR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>range</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[range]</local-name>
+            <parent-name>[tabelacampeao.csv]</parent-name>
+            <remote-alias>range</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>regeneracaohp</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[regeneracaohp]</local-name>
+            <parent-name>[tabelacampeao.csv]</parent-name>
+            <remote-alias>regeneracaohp</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LPT_RBR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>regeneracaohppornivel</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[regeneracaohppornivel]</local-name>
+            <parent-name>[tabelacampeao.csv]</parent-name>
+            <remote-alias>regeneracaohppornivel</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LPT_RBR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>regeneracaomp</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[regeneracaomp]</local-name>
+            <parent-name>[tabelacampeao.csv]</parent-name>
+            <remote-alias>regeneracaomp</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LPT_RBR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>regeneracaomppornivel</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[regeneracaomppornivel]</local-name>
+            <parent-name>[tabelacampeao.csv]</parent-name>
+            <remote-alias>regeneracaomppornivel</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LPT_RBR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>critico</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[critico]</local-name>
+            <parent-name>[tabelacampeao.csv]</parent-name>
+            <remote-alias>critico</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>criticopornivel</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[criticopornivel]</local-name>
+            <parent-name>[tabelacampeao.csv]</parent-name>
+            <remote-alias>criticopornivel</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>danodeataque</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[danodeataque]</local-name>
+            <parent-name>[tabelacampeao.csv]</parent-name>
+            <remote-alias>danodeataque</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>danodeataquepornivel</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[danodeataquepornivel]</local-name>
+            <parent-name>[tabelacampeao.csv]</parent-name>
+            <remote-alias>danodeataquepornivel</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LPT_RBR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>velocidadedeataque</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[velocidadedeataque]</local-name>
+            <parent-name>[tabelacampeao.csv]</parent-name>
+            <remote-alias>velocidadedeataque</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LPT_RBR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>velocidadedeataquepornivel</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[velocidadedeataquepornivel]</local-name>
+            <parent-name>[tabelacampeao.csv]</parent-name>
+            <remote-alias>velocidadedeataquepornivel</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LPT_RBR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='tabelacampeao.csv' datatype='table' name='[__tableau_internal_object_id__].[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]' role='measure' type='quantitative' />
+      <column caption='Armadura' datatype='integer' name='[armadura]' role='measure' type='quantitative' />
+      <column aggregation='CountD' caption='Armadurapornivel' datatype='real' datatype-customized='true' name='[armadurapornivel]' role='measure' type='quantitative' />
+      <column aggregation='Sum' caption='Ataque' datatype='integer' name='[ataque]' role='dimension' type='ordinal' />
+      <column caption='Codigo Campeao' datatype='integer' name='[codigo_campeao]' role='dimension' type='ordinal' />
+      <column caption='Critico' datatype='integer' name='[critico]' role='measure' type='quantitative' />
+      <column caption='Criticopornivel' datatype='integer' name='[criticopornivel]' role='measure' type='quantitative' />
+      <column caption='Danodeataque' datatype='integer' name='[danodeataque]' role='measure' type='quantitative' />
+      <column aggregation='CountD' caption='Danodeataquepornivel' datatype='real' datatype-customized='true' name='[danodeataquepornivel]' role='measure' type='quantitative' />
+      <column aggregation='Sum' caption='Defesa' datatype='integer' name='[defesa]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' caption='Dificuldade' datatype='integer' name='[dificuldade]' role='dimension' type='ordinal' />
+      <column caption='Hp' datatype='integer' name='[hp]' role='measure' type='quantitative' />
+      <column caption='Hppornivel' datatype='integer' name='[hppornivel]' role='measure' type='quantitative' />
+      <column caption='Id' datatype='string' name='[id]' role='dimension' type='nominal' />
+      <column caption='Id Unico' datatype='integer' name='[id_unico]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' caption='Magia' datatype='integer' name='[magia]' role='dimension' type='ordinal' />
+      <column caption='Mp' datatype='integer' name='[mp]' role='measure' type='quantitative' />
+      <column caption='Mppornivel' datatype='integer' name='[mppornivel]' role='measure' type='quantitative' />
+      <column caption='Mr' datatype='integer' name='[mr]' role='measure' type='quantitative' />
+      <column aggregation='CountD' caption='Mrpornivel' datatype='real' datatype-customized='true' name='[mrpornivel]' role='measure' type='quantitative' />
+      <column caption='Nome Campeao' datatype='string' name='[nome_campeao]' role='dimension' type='nominal' />
+      <column caption='Range' datatype='integer' name='[range]' role='measure' type='quantitative' />
+      <column caption='Regeneracaohp' datatype='real' datatype-customized='true' name='[regeneracaohp]' role='measure' type='quantitative' />
+      <column aggregation='CountD' caption='Regeneracaohppornivel' datatype='real' datatype-customized='true' name='[regeneracaohppornivel]' role='measure' type='quantitative' />
+      <column aggregation='CountD' caption='Regeneracaomp' datatype='real' datatype-customized='true' name='[regeneracaomp]' role='measure' type='quantitative' />
+      <column aggregation='CountD' caption='Regeneracaomppornivel' datatype='real' datatype-customized='true' name='[regeneracaomppornivel]' role='measure' type='quantitative' />
+      <column caption='Tipo' datatype='string' name='[tipo]' role='dimension' type='nominal' />
+      <column caption='Titulo' datatype='string' name='[titulo]' role='dimension' type='nominal' />
+      <column aggregation='CountD' caption='Velocidadedeataque' datatype='real' datatype-customized='true' name='[velocidadedeataque]' role='measure' type='quantitative' />
+      <column aggregation='CountD' caption='Velocidadedeataquepornivel' datatype='real' datatype-customized='true' name='[velocidadedeataquepornivel]' role='measure' type='quantitative' />
+      <column caption='Velocidademovimento' datatype='integer' name='[velocidademovimento]' role='measure' type='quantitative' />
+      <column caption='Versao Api' datatype='string' name='[versao_api]' role='dimension' type='nominal' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='pt_BR' class='hyper' dbname='C:/Users/adona/AppData/Local/Temp/TableauTemp/#TableauTemp_0usnhpm1hplww513c82xy1t211fd.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='10/06/2024 03:01:32 AM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>id_unico</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[id_unico]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>id_unico</remote-alias>
+              <ordinal>0</ordinal>
+              <family>tabelacampeao.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>48846</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>versao_api</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[versao_api]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>versao_api</remote-alias>
+              <ordinal>1</ordinal>
+              <family>tabelacampeao.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>667</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LPT_RBR' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>id</remote-alias>
+              <ordinal>2</ordinal>
+              <family>tabelacampeao.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>173</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LPT_RBR' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>codigo_campeao</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[codigo_campeao]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>codigo_campeao</remote-alias>
+              <ordinal>3</ordinal>
+              <family>tabelacampeao.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>173</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>nome_campeao</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[nome_campeao]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>nome_campeao</remote-alias>
+              <ordinal>4</ordinal>
+              <family>tabelacampeao.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>180</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LPT_RBR' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>titulo</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[titulo]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>titulo</remote-alias>
+              <ordinal>5</ordinal>
+              <family>tabelacampeao.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>308</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LPT_RBR' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>tipo</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[tipo]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>tipo</remote-alias>
+              <ordinal>6</ordinal>
+              <family>tabelacampeao.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>33</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LPT_RBR' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ataque</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[ataque]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ataque</remote-alias>
+              <ordinal>7</ordinal>
+              <family>tabelacampeao.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>defesa</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[defesa]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>defesa</remote-alias>
+              <ordinal>8</ordinal>
+              <family>tabelacampeao.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>magia</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[magia]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>magia</remote-alias>
+              <ordinal>9</ordinal>
+              <family>tabelacampeao.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>dificuldade</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[dificuldade]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>dificuldade</remote-alias>
+              <ordinal>10</ordinal>
+              <family>tabelacampeao.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>hp</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[hp]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>hp</remote-alias>
+              <ordinal>11</ordinal>
+              <family>tabelacampeao.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>328</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>hppornivel</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[hppornivel]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>hppornivel</remote-alias>
+              <ordinal>12</ordinal>
+              <family>tabelacampeao.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>71</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>mp</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[mp]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>mp</remote-alias>
+              <ordinal>13</ordinal>
+              <family>tabelacampeao.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>218</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>mppornivel</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[mppornivel]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>mppornivel</remote-alias>
+              <ordinal>14</ordinal>
+              <family>tabelacampeao.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>54</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>velocidademovimento</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[velocidademovimento]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>velocidademovimento</remote-alias>
+              <ordinal>15</ordinal>
+              <family>tabelacampeao.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>16</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>armadura</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[armadura]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>armadura</remote-alias>
+              <ordinal>16</ordinal>
+              <family>tabelacampeao.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>153</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>armadurapornivel</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[armadurapornivel]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>armadurapornivel</remote-alias>
+              <ordinal>17</ordinal>
+              <family>tabelacampeao.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>66</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>mr</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[mr]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>mr</remote-alias>
+              <ordinal>18</ordinal>
+              <family>tabelacampeao.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>mrpornivel</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[mrpornivel]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>mrpornivel</remote-alias>
+              <ordinal>19</ordinal>
+              <family>tabelacampeao.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>range</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[range]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>range</remote-alias>
+              <ordinal>20</ordinal>
+              <family>tabelacampeao.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>18</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>regeneracaohp</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[regeneracaohp]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>regeneracaohp</remote-alias>
+              <ordinal>21</ordinal>
+              <family>tabelacampeao.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>383</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>regeneracaohppornivel</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[regeneracaohppornivel]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>regeneracaohppornivel</remote-alias>
+              <ordinal>22</ordinal>
+              <family>tabelacampeao.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>26</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>regeneracaomp</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[regeneracaomp]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>regeneracaomp</remote-alias>
+              <ordinal>23</ordinal>
+              <family>tabelacampeao.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>259</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>regeneracaomppornivel</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[regeneracaomppornivel]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>regeneracaomppornivel</remote-alias>
+              <ordinal>24</ordinal>
+              <family>tabelacampeao.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>18</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>critico</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[critico]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>critico</remote-alias>
+              <ordinal>25</ordinal>
+              <family>tabelacampeao.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>criticopornivel</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[criticopornivel]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>criticopornivel</remote-alias>
+              <ordinal>26</ordinal>
+              <family>tabelacampeao.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>danodeataque</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[danodeataque]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>danodeataque</remote-alias>
+              <ordinal>27</ordinal>
+              <family>tabelacampeao.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>163</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>danodeataquepornivel</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[danodeataquepornivel]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>danodeataquepornivel</remote-alias>
+              <ordinal>28</ordinal>
+              <family>tabelacampeao.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>111</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>velocidadedeataque</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[velocidadedeataque]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>velocidadedeataque</remote-alias>
+              <ordinal>29</ordinal>
+              <family>tabelacampeao.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>63</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>velocidadedeataquepornivel</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[velocidadedeataquepornivel]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>velocidadedeataquepornivel</remote-alias>
+              <ordinal>30</ordinal>
+              <family>tabelacampeao.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>77</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Brasil&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='tabelacampeao.csv' id='tabelacampeao.csv_FAA4DA5A3D7B441BBB9C26876DF3BAF1'>
+            <properties context=''>
+              <relation connection='textscan.0ubz4o30gu4ghp17ikcgh0cffrgk' name='tabelacampeao.csv' table='[tabelacampeao#csv]' type='table'>
+                <columns character-set='windows-1252' header='yes' locale='pt_BR'>
+                  <column datatype='integer' name='id_unico' ordinal='0' />
+                  <column datatype='string' name='versao_api' ordinal='1' />
+                  <column datatype='string' name='id' ordinal='2' />
+                  <column datatype='integer' name='codigo_campeao' ordinal='3' />
+                  <column datatype='string' name='nome_campeao' ordinal='4' />
+                  <column datatype='string' name='titulo' ordinal='5' />
+                  <column datatype='string' name='tipo' ordinal='6' />
+                  <column datatype='integer' name='ataque' ordinal='7' />
+                  <column datatype='integer' name='defesa' ordinal='8' />
+                  <column datatype='integer' name='magia' ordinal='9' />
+                  <column datatype='integer' name='dificuldade' ordinal='10' />
+                  <column datatype='integer' name='hp' ordinal='11' />
+                  <column datatype='integer' name='hppornivel' ordinal='12' />
+                  <column datatype='integer' name='mp' ordinal='13' />
+                  <column datatype='integer' name='mppornivel' ordinal='14' />
+                  <column datatype='integer' name='velocidademovimento' ordinal='15' />
+                  <column datatype='integer' name='armadura' ordinal='16' />
+                  <column datatype='string' name='armadurapornivel' ordinal='17' />
+                  <column datatype='integer' name='mr' ordinal='18' />
+                  <column datatype='string' name='mrpornivel' ordinal='19' />
+                  <column datatype='integer' name='range' ordinal='20' />
+                  <column datatype='string' name='regeneracaohp' ordinal='21' />
+                  <column datatype='string' name='regeneracaohppornivel' ordinal='22' />
+                  <column datatype='string' name='regeneracaomp' ordinal='23' />
+                  <column datatype='string' name='regeneracaomppornivel' ordinal='24' />
+                  <column datatype='integer' name='critico' ordinal='25' />
+                  <column datatype='integer' name='criticopornivel' ordinal='26' />
+                  <column datatype='integer' name='danodeataque' ordinal='27' />
+                  <column datatype='string' name='danodeataquepornivel' ordinal='28' />
+                  <column datatype='string' name='velocidadedeataque' ordinal='29' />
+                  <column datatype='string' name='velocidadedeataquepornivel' ordinal='30' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <shared-views>
+    <shared-view name='federated.1s1lyjl02ljezk1du9en900zj1za'>
+      <datasources>
+        <datasource caption='tabelacampeao' name='federated.1s1lyjl02ljezk1du9en900zj1za' />
+      </datasources>
+      <datasource-dependencies datasource='federated.1s1lyjl02ljezk1du9en900zj1za'>
+        <column caption='Nome Campeao' datatype='string' name='[nome_campeao]' role='dimension' type='nominal' />
+        <column-instance column='[nome_campeao]' derivation='None' name='[none:nome_campeao:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <filter class='categorical' column='[federated.1s1lyjl02ljezk1du9en900zj1za].[none:nome_campeao:nk]'>
+        <groupfilter function='member' level='[none:nome_campeao:nk]' member='&quot;Aatrox&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+      </filter>
+    </shared-view>
+  </shared-views>
+  <worksheets>
+    <worksheet name='Planilha 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='tabelacampeao' name='federated.1s1lyjl02ljezk1du9en900zj1za' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1s1lyjl02ljezk1du9en900zj1za'>
+            <column caption='Danodeataque' datatype='integer' name='[danodeataque]' role='measure' type='quantitative' />
+            <column-instance column='[danodeataque]' derivation='Max' name='[max:danodeataque:qk]' pivot='key' type='quantitative' />
+            <column caption='Nome Campeao' datatype='string' name='[nome_campeao]' role='dimension' type='nominal' />
+            <column-instance column='[nome_campeao]' derivation='None' name='[none:nome_campeao:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.1s1lyjl02ljezk1du9en900zj1za].[none:nome_campeao:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.1s1lyjl02ljezk1du9en900zj1za].[none:nome_campeao:nk]' value='true' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1s1lyjl02ljezk1du9en900zj1za].[max:danodeataque:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1s1lyjl02ljezk1du9en900zj1za].[none:nome_campeao:nk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{7C3B6B39-5BCA-4DB9-92ED-7EB7000D356B}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Painel 1'>
+      <style />
+      <size maxheight='860' maxwidth='650' minheight='560' minwidth='420' />
+      <datasources>
+        <datasource caption='tabelacampeao' name='federated.1s1lyjl02ljezk1du9en900zj1za' />
+      </datasources>
+      <datasource-dependencies datasource='federated.1s1lyjl02ljezk1du9en900zj1za'>
+        <column caption='Nome Campeao' datatype='string' name='[nome_campeao]' role='dimension' type='nominal' />
+        <column-instance column='[nome_campeao]' derivation='None' name='[none:nome_campeao:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='5' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='45158' id='3' name='Planilha 1' show-title='false' w='46615' x='2923' y='8518' />
+        <zone h='6068' id='4' mode='dropdown' name='Planilha 1' param='[federated.1s1lyjl02ljezk1du9en900zj1za].[none:nome_campeao:nk]' type-v2='filter' values='database' w='25846' x='2769' y='700' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='11' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98134' id='10' param='vert' type-v2='layout-flow' w='97538' x='1231' y='933'>
+                <zone h='6068' id='4' mode='dropdown' name='Planilha 1' param='[federated.1s1lyjl02ljezk1du9en900zj1za].[none:nome_campeao:nk]' type-v2='filter' values='database' w='25846' x='2769' y='700'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='45158' id='3' is-fixed='true' name='Planilha 1' show-title='false' w='46615' x='2923' y='8518'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{06D99501-9D75-4F5D-944D-3212F278D9C3}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Planilha 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1s1lyjl02ljezk1du9en900zj1za].[none:versao_api:nk]</field>
+            <field>[federated.1s1lyjl02ljezk1du9en900zj1za].[sum:ataque:qk]</field>
+            <field>[federated.1s1lyjl02ljezk1du9en900zj1za].[usr:Calculation_1422856007803146240:ok]</field>
+            <field>[federated.1s1lyjl02ljezk1du9en900zj1za].[usr:Calculation_1422856007803146240:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{2400D209-614A-4570-8A98-CFB9963A2CEA}' />
+    </window>
+    <window class='dashboard' name='Painel 1'>
+      <viewpoints>
+        <viewpoint name='Planilha 1' />
+      </viewpoints>
+      <active id='4' />
+      <simple-id uuid='{DD1BF38F-1806-442A-8A34-0251839F6058}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Painel 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAFpElEQVR4nO3bS2tcZQDG8efMpJPbJDNJJ61prqYhSVshEisVXBRUqvuu/ASCn8Fv4dqV
+      4K6KCgpCsSBCRduixJC0TS+ZmTSdJGZyz1zOGRdiN6ZRySRN+/x/uxmY874Hzp/hfTlvUKvV
+      agIMBUEQxJ71JIBniQBgbdcA7tz4Xtensvrlxs29fx2F+vHaVd2aunsQcwMOXMNuX5bKFT1e
+      fqhj0Ya++/Zr1Ro7FK4uqFiuKtHUqsRmQdlyuz64fFEbDWm9OTaoLz/7RNXOYcU2sipXE2pu
+      Tym+valqc1JBcU75clrnTgaaXmnQSFdcm2GL3n3vrd0nABySXZ+/hkSjzgxk9MPNJfW0B4rC
+      UG2d3WqNR4qpqu1YVRM9I4q3pBWs/aQbvzao3NCqJpWUOtWvWBiXopLyhXU1t7Srqa1TEz2j
+      ejT7m1LJJkVhqCiMDvtegX8IDm4XKNT92ZxePj1wMJcH9ikIguAAAwCOtj23QQv5e5q6m33y
+      eW1lReGhTAs4PE9dgy6ubKoS1pSdXtSVa5MaH0jrxOg5Pb49q3SmQ2vFFWX6h1QpVzV+blSx
+      IDjMeQN1sWsAtXBH87mcKpVIW11pnUqn1D3Qr1DSwPBZhTsFrUahqmFNpVJJtZoknn88h1gD
+      wBavQsAeAcAaAcAaAcAaAcAaAcAaAcAaAcAaAcDa7gdiSiVtb28f9lzqolypan5pdV/XCIJA
+      Z4Z6lUgk6jQrHFUv3KsQt+9ldfmjT/d1jZbGBl39+EMlk8k6zQpH0b++ClELy/rqi8+1Vfm7
+      kbLm80v1GT2qaPr3Sc3OzUuSHtyd1tTMPUU1qbi0oPvZhfqMI6krndTFiWGd7GzTpQtjamtp
+      Uk9XSu+8Pqrh3owuXRjTcG9Gb58fUbqtuW7j4ujb80jucm5ac3N5Td6+o5+/uaLBiQnNzRQ0
+      MX5aHZmUHmaXlEo3a315RaOvXVBvJv3fR65FOt7dr+LyXw96a+q4jq2taCeS0pkurc/VL4C+
+      k2ndmslpYrRP1ycf6ERHUrP5JaWSzSpubCtXKKq5MaGbM1m1NiVULlfqNjaOtj3/AZaKoS6/
+      f1nB6mMNjI0r09WnkaETampJqn9oSLHqlmLxhNra27S9Vfp/I8ePaXN5XrFEUmvrawp3NlSs
+      NijcWtPio7xy+bw2y9X93NsTuUJR58/0a27hD73xyqDCKNJgd6deOt6uWk1a39zRnWxBr470
+      Kh5nX8AJa4BdsAbw8NQzwc/7LlBucX+7QLFAOnu6j12gFxyH4mGNAzGwRwCwRgCwRgCwRgCw
+      RgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCw
+      RgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCw
+      RgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCw
+      RgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCw
+      RgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCw
+      RgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCw
+      RgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCw
+      RgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCw
+      RgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCw9ieyE2UXvwiNDgAA
+      AABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='24' name='Planilha 1' width='144'>
+      iVBORw0KGgoAAAANSUhEUgAAAJAAAAAYCAYAAAAVpXQNAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAF4ElEQVRoge3Zf0zU9x3H8WcPQbENalDTkcoZZloxMyn53l3usAhHIhCtaQj7o8Na4kim
+      lqxD7IiZmcoM3ZJl5OI0i4ks0FmjCWSblqaSgYB6TDmaGOL5I4IgXs/zgAuM+wH3470/mJdd
+      hLTju2yz+z4S/iDvz+f9/X6TVz6ffD73kogIGs0i6f7bL6B5sWkB0qiiBUijihYgjSpagDSq
+      aAHSqKIFSKPKkq8b4HA4/hPvoXlBvaRdJGrU0LYwjSpagDSqaAHSqKIFSKOK+gD5P+egwYDB
+      sJ/W8X/DG2nmNTQ0xO7duzGZTBQWFnLp0qV47fr165SUlGAymaitrWVqauq5+ZcvX6a0tBST
+      yYTFYkkYd+jQIQwGQ8Kf1Wrl9u3bAAQCAerr67FYLFgsFo4dO8bMzMxcY1Fpuq1GlJomadqn
+      SE3b9Dec1S1HlHJpGlb79P8PXq9X9uzZIx0dHRKNRmVyclJcLpeIiLhcLtm7d684nU4JBoNi
+      s9nkxIkTCfMjkYhcvHhRBgcHJRqNSigUkpMnTz437hmXyyV1dXUSCAQkGo1KfX29NDQ0iN/v
+      l9nZWRkZGZFwOCwiIipXoAj9N+wYc9+mwPwG9hv9RNQ11MzDbreTk5NDYWEhOp2OtLQ0MjIy
+      ALh58ya5ublkZ2ezbNkyysvLGR0dTZiflJTEzp07ycrKQqfTsXTpUrZs2UI4HJ73eV1dXeTn
+      55Oamsrjx4/xer1UVlayfPlykpOTyczMZMmSuStEdQGKfIn9aibGnHT033uT1PYO7PEEjfOX
+      uncpyptbEvOKqmh0+mGkmV2GGtq4x2/L5mpHewB6OGrYRfPQEK3Vb2PZ1cwIEBlq5aPvW7EY
+      DFisu/llp5sIMHvzVxQXH8fuB5ji84N5VDQPfSsD/ODBA/Ly8uatTU5OsnHjxvj/6enprF69
+      esFe4XCYvr4+Ghsb2b59+3P1sbExnE4nOTk5ADx69Ijs7GzS0tLm7acqQM7Tx/lzXhXvZwHK
+      B3yU28avTzv/UU1m7frXSFuSDEBw4ga/q29hRF/Bp44GdvAGP2514HA4qNv6rKOb+8OrKbN9
+      Ru+nFeidpyj9yRN+2HKFXoeD3it/YEv3TiqaR0gxHeJy2y7u/qiY4h/8hleOXqW5Iuvrr9Zf
+      QKFQCJ/Px8zMDLFYjIGBAfbv34/X6/2XeyUlJbF27VrWrFnD8PBwQm1qagqbzUZ1dXU8MKFQ
+      iFAoxMTEBAA+n4/a2lq6u7sBVQFycuULN+G2GswGAwZDPke6wf3FFZwA/aepbl5K5YVuHA4H
+      joYd36Dnd3j9u/MnfSFJy1JJ/tswo77FfMOLYcOGDfGtR6fTsXnzZjIyMnC73axYsYK7d+/G
+      x46PjzM2NrZgL51Oh16vZ9++ffT09BAIBOI1u93Opk2bElYwvV4PwMqVKwFYtWoVRUVF3Lt3
+      b67for9qpA+7O59fdM+tIg6HA0fbT3nTbadvBJgJEXw5nVdXphAJPORq74N/mvwyr6S5uX9/
+      gggRIgvtO6+b2TrbSuMfR5kFZu//nsb2TLZa9MAUPcc/pHNrA5/UvMYnR5oZ+jbuX4DJZKKl
+      pYWHDx/GVyCfz8f69esxmUzY7Xbu3LlDKBTi3LlzrFu3LmH+xMQEFy5cwOPxEIvFCIfDdHZ2
+      IiKkpKQAEAwG6e/vZ9u2bQlz9Xo9T58+pb29nVgshs/no7OzE0VR5gYs9mTw5HylKDVtknju
+      eiLnKxWpPP9EJDwoZ/cWiFkxS8F7P5fztg9FKW+SZwev4T8dlHfeUkRR3pKP/yqy0MksPNgi
+      B8sKxKwoYi54Tz7u+ErCEpbxjiOy4/0mGQyLiExKx8+sUmq7JTOL/aD/cb29vVJaWipGo1HK
+      yspkYGAgXrt27ZoUFxeL0WiUw4cPi9/vl+npaamqqpJbt25JMBiUM2fOSElJiSiKImazWQ4c
+      OCAejyfeo6urS06dOjXvsz0ej1RXV4vRaBSr1Spnz56VaDQqIiLaj6kaVbSbaI0qfwcq/74L
+      vFkSUgAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
