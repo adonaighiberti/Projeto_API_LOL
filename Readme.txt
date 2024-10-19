@@ -24,6 +24,9 @@ Supabase
 	
 Tableau
 
+	Foi utilizada uma base exportada do PostgreSQL para que fosse criado um painel com as informaçoes dos campeões, sendo possível filtrar por campeão e versão.
+	https://public.tableau.com/app/profile/adonai.ghiberti/viz/Info_Campeao/Status_Campeo?publish=yes
+
 	
 
 	
